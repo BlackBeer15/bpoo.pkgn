@@ -1,0 +1,105 @@
+@media (max-width: 1910px) { 
+	.prof-test p {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 1550px) { 
+	.prof-test p {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 1300px) { 
+	.prof-test p {
+		font-size: 14px;
+	}
+
+	.atlas-prof {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 1210px) { 
+	.info-center-wrapper {
+		flex-direction: column;
+		height: auto;
+		margin-top: 50px;
+	}
+
+	.info-center {
+		width: 100%;
+	}
+
+	.info-center a img {
+		width: 100%;
+		height: auto;
+	}
+
+	.prof-test {
+		width: 100%;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+	.prof-test p {
+		font-size: 18px;
+	}
+
+	.virtual-priem {
+		height: 400px;
+	}
+
+	.virtual-priem img {
+		height: auto;
+		width: 90%;
+	}
+}
+
+@media (max-width: 1160px) { 
+	.atlas-prof {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 1060px) {
+	.atlas-prof {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 960px) {
+	.atlas-prof {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 860px) {
+	.atlas-prof {
+		text-align: center;
+		width: 90%;
+	}
+
+	.virtual-priem {
+		height: 300px;
+	}
+}
+
+
+@media (max-width: 580px) {
+	.info-center a img {
+		width: 80%;
+		height: auto;
+	}
+}
+
+@media (max-width: 380px) {
+	.info-center a p {
+		font-size: 20px;
+	}
+
+	.info-center a img {
+		width: 90%;
+		height: auto;
+	}
+}

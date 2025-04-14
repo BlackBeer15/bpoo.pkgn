@@ -1,0 +1,14 @@
+.form-wrapper {
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+	min-height: 2400px;
+	border-radius: 10px;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	border: 1px solid #c7c7c7;
+}
+
+.form-wrapper iframe {
+	border-radius: 10px;
+}

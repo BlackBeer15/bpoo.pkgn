@@ -1,0 +1,72 @@
+/*Fonts*/
+/*Bold*/
+@font-face {
+	font-family: 'Gotham Pro';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Gotham Pro'),
+		url('../fonts/ttf/gothampro_bold.ttf') format('ttf'),
+		url('../fonts/woff/gothampro_bold.woff') format('woff');
+}
+
+/*Light*/
+@font-face {
+	font-family: 'Gotham Pro Light';
+	font-style: normal;
+	font-weight: lighter;
+	src: local('Gotham Pro Light'),
+		url('../fonts/ttf/gothampro_light.ttf') format('ttf'),
+		url('../fonts/woff/gothampro_light.woff') format('woff');
+}
+
+/*Regular*/
+@font-face {
+	font-family: 'Gotham Pro';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Gotham Pro'),
+		url('../fonts/ttf/gothampro.ttf') format('ttf'),
+		url('../fonts/woff/gothampro.woff') format('woff');
+
+}
+
+* {
+	font-family: Gotham Pro;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	position: relative;
+}
+
+main {
+	position: relative;
+	z-index: 1;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #f6f6f6;
+	background-image: url("../images/backbpoo.png");
+	background-repeat: repeat;
+	background-size: 200%;
+	background-position: left;
+	margin-bottom: 750px;
+	animation: back 200s ease infinite;
+}
+
+@keyframes back {
+	0% {
+    	background-position: left;
+	}
+
+	50% {
+    	background-position: right;
+	}
+
+	100% {
+		background-position: left;
+	}
+}

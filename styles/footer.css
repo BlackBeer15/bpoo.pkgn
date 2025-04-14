@@ -1,0 +1,159 @@
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 750px;
+	width: 100%;
+}
+
+footer video {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: -9999;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	user-select: none;
+}
+
+.smooth-video {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: -9998;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+footer .info-tittle-footer {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+footer .info-tittle-footer p {
+	line-height: 1.5;
+	font-weight: bold;
+	font-size: 30px;
+	color: #2c2c2c;
+}
+
+footer .info-tittle-footer .line {
+	width: 60%;
+	height: 3px;
+	background-color: #2c2c2c;
+	-webkit-transform: skew(100deg);
+	   -moz-transform: skew(100deg);
+	     -o-transform: skew(100deg);
+}
+
+.footer-lists {
+	max-width: 100%;
+	display: flex;
+	padding-left: 50px;
+	justify-content: space-between;
+}
+
+.footer-lists ul {
+	list-style: none;
+	width: 600px;
+	
+}
+
+.footer-lists ul:first-child {
+	margin: 0;
+}
+
+.footer-lists ul li {
+	margin-top: 15px;
+}
+
+.footer-lists ul li a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #212121;
+	transition: 0.3s;
+}
+
+.footer-lists ul li a:hover {
+	color: #000;
+	text-shadow: 0px 0px 1px #000;
+}
+
+.info-tittle-address {
+	margin-top: 15px;
+}
+
+.info-tittle-address p {
+	line-height: 1.5;
+	font-weight: bold;
+	font-size: 30px;
+	color: #2c2c2c;
+}
+
+.info-tittle-address .line {
+	width: 100%;
+	height: 3px;
+	background-color: #2c2c2c;
+	-webkit-transform: skew(100deg);
+	   -moz-transform: skew(100deg);
+	     -o-transform: skew(100deg);
+}
+
+.address {
+	margin-left: 10px;
+	margin-right: 25px;
+	width: 30%;
+}
+
+.address iframe {
+	height: 50%;
+	width: 100%;
+}
+
+.address-text {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+.address-text .first-address p, .second-address p {
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+.footer-logo {
+	position: absolute;
+	bottom: 50px;
+	width: 100%;
+	margin-top: 25px;
+}
+
+.footer-logo ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	align-items: center;
+}
+
+.footer-logo ul li a img {
+	height: 80px;
+	width: auto;
+}
+
+.count-visits {
+	display: block;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background-color: #ffffff;
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: underline;
+	border-bottom-left-radius: 10px;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	padding: 10px;
+}

@@ -1,0 +1,140 @@
+.tittle-course {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 15px;
+}
+
+.start-course {
+	width: 90%;
+	margin-top: 50px;
+}
+
+.start-course {
+	text-align: center;
+}
+
+.start-course p {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.start-course iframe {
+	margin-top: 25px;
+	width: 80%;
+	height: 700px;
+	border-radius: 10px;
+	border: 1px solid #c7c7c7;
+	outline: none;
+}
+
+.lessons {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.lessons P {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.lessons .themes-ul {
+	margin-top: 15px;
+	width: 80%;
+	list-style: none;
+}
+
+.lessons .themes-ul li {
+	margin-top: 20px;
+}
+
+
+.lessons .themes-ul li a {
+	display: block;
+    text-decoration: none;
+    color: #2128b8;
+    font-size: 19px;
+    padding-left: 30px;
+}
+
+.lessons .themes-ul li a:hover {
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.lessons .themes-ul li a span {
+	font-weight: bold;
+}
+
+/*------------------------------------------------------*/
+
+.lessons .lessons-ul {
+	margin-top: 25px;
+	list-style: none;
+	width: 80%;
+}
+
+.lessons .lessons-ul li {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.lessons .lessons-ul li p {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.lessons .lessons-ul li a {
+	display: block;
+    text-decoration: none;
+    color: #2128b8;
+    font-size: 19px;
+    padding: 0;
+}
+
+.lessons .lessons-ul li a:hover {
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.lessons .lessons-ul li a span {
+	font-weight: bold;
+}
+
+/*---------------------------------------------------------*/
+
+.test {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.test p {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.test a {
+	text-align: center;
+	margin-top: 25px;
+    text-decoration: none;
+    color: #2128b8;
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.themes-ul {
+	text-align: center;
+}
+
+.themes-ul li {
+	margin-bottom: 25px;
+}

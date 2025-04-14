@@ -1,0 +1,92 @@
+@media (max-width: 1365px) {
+	#tapKval {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 1220px) {
+	.events-navigation ul li p {
+		font-size: 16px;
+	}
+
+	#tapKval {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 1150px) {
+
+	#tapKval {
+		font-size: 16px;
+	}
+
+	.events-wrapper {
+		display: block;
+	}
+
+	.events-navigation {
+		position: sticky;
+		width: 100%;
+		top: 100px;
+		height: auto;
+		border-radius: 8px;
+		z-index: 9999;
+		height: 100px;
+	}
+
+	.events-navigation ul {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.events-navigation ul li {
+		width: 100%;
+		border: none;
+		height: 100%;
+		border-right: 2px solid #000;
+	}
+
+	.events-navigation ul li p {
+		line-height: 1;
+	}
+
+	.events-navigation ul li p a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.events-app {
+		width: 100%;
+		margin-top: 25px;
+	}
+
+	#tapConf {
+		border-radius: 0px;
+		border-top-left-radius: 8px;
+		border-bottom-left-radius: 8px;
+	}
+
+	#tapAbilim {
+		border-radius: 0px;
+		border-top-right-radius: 8px;
+		border-bottom-right-radius: 8px;
+		height: 100%;
+	}
+}
+
+@media (max-width: 900px) {
+	.events-tittle p {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 600px) {
+	.events-navigation ul li p {
+		font-size: 14px;
+	}
+
+	#tapKval {
+		font-size: 14px;
+	}
+}

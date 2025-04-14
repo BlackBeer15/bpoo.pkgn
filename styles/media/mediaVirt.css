@@ -1,0 +1,17 @@
+@media (max-width: 680px) { 
+	.form-wrapper iframe {
+		width: 500px;
+	}
+}
+
+@media (max-width: 550px) { 
+	.form-wrapper iframe {
+		width: 400px;
+	}
+}
+
+@media (max-width: 450px) { 
+	.form-wrapper iframe {
+		width: 300px;
+	}
+}
